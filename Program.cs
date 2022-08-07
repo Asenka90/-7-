@@ -56,7 +56,7 @@ int columnPosition = Convert.ToInt32(Console.ReadLine());
 if (rowPosition > 5 || columnPosition > 5 || rowPosition < 0 || columnPosition < 0)
     Console.WriteLine("Такого элемента нет! ");
 else 
-    Console.WriteLine($"Значение элемента: {myArr[rowPosition-1, columnPosition-1]}");
+    Console.WriteLine($"Значение элемента: {myArr[rowPosition, columnPosition]}");
 
 
 // Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
