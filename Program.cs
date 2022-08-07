@@ -48,9 +48,9 @@ for (int i = 0; i < 5; i++)
     }
     Console.WriteLine();
 }
-Console.WriteLine("Ввведите номер строки элемента: ");
+Console.WriteLine("Ввведите номер строки элемента (нумерация начинается c 0): ");
 int rowPosition = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Ввведите номер столбца элемента: ");
+Console.WriteLine("Ввведите номер столбца элемента (нумерация начинается c 0): ");
 int columnPosition = Convert.ToInt32(Console.ReadLine());
 
 if (rowPosition > 5 || columnPosition > 5 || rowPosition < 0 || columnPosition < 0)
